@@ -50,9 +50,9 @@ const Header = () => {
         <Avatar name='Birdev' round size='50' color='gray'/>
       </div>
     </div>
-     <div className='flex items-center justify-center px-5 md:py-5 rounded-md'>
+     <div className='flex items-center justify-center md:py-5'>
         <p className='flex items-center p-5 text-sm font-light
-         pr-5 shadow-xl w-fit bg-white italic max-w-3xl text-[#0055D1]'>
+         pr-5 shadow-xl rounded-md w-fit bg-white italic max-w-3xl text-[#0055D1]'>
         <UserCircleIcon className='inline-block h-10 w-10 mr-1 text-[#0055D1]' />
         GPT is summarsing learning activtes       
         </p>
